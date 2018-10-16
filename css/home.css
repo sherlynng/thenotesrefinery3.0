@@ -71,6 +71,10 @@ nav {
     text-align: center;
 }
 
+#how-to-use a {
+    text-decoration: none;
+}
+
 .steps {
     display: table-cell;
 }
@@ -85,11 +89,25 @@ nav {
     color: #0C71C3;
 }
 
+.steps-subheading {
+    color: black;
+}
+
 h2.steps-heading {
     color: #0C71C3;
     font-weight: bold;
     padding-top: 100px;
     padding-bottom: 20px;
+}
+
+.steps-container {
+    padding-top: 10px;
+    transition: background-color 0.5s ease-out;
+}
+
+.steps-container:hover {
+    background-color: #CDE4F4;
+    transition: background-color 0.5s ease;
 }
 
 footer {
